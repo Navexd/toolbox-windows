@@ -12,10 +12,10 @@ SolidCompression=yes
 Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 
 [Files]
-Source: "\toolbox\toolbox\dist\Toolbox\Toolbox.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\toolbox\toolbox\dist\Toolbox\_internal\styles.qss"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\toolbox\toolbox\dist\Toolbox\_internal\pick\*"; DestDir: "{app}\pick"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "\PycharmProjects\toolbox\toolbox\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\navet\PycharmProjects\toolbox\toolbox\dist\Toolbox\Toolbox.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\navet\PycharmProjects\toolbox\toolbox\dist\Toolbox\_internal\styles.qss"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\navet\PycharmProjects\toolbox\toolbox\dist\Toolbox\_internal\pick\*"; DestDir: "{app}\pick"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\navet\PycharmProjects\toolbox\toolbox\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 
 [Icons]
