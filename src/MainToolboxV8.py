@@ -13,6 +13,7 @@ from config import STYLESHEET_PATH, IMAGES_DIR
 from historiqueV8 import HistoriqueWidget
 from servicesV8 import ServicesWidget
 
+
 class SettingsWindow(QDialog):
     def __init__(self):
         super().__init__()
