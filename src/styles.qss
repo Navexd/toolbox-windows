@@ -1,0 +1,57 @@
+/* Style général pour tous les widgets */
+QWidget {
+    background-color: #1e1e2e; /* Couleur de fond pour tous les widgets */
+    color: #ecf0f1; /* Couleur du texte pour tous les widgets */
+    font-size: 14px; /* Taille de la police pour tous les widgets */
+}
+
+/* Style spécifique pour la barre de tâches */
+#taskbar {
+    background-color: #2c2c3e; /* Couleur de fond de la barre de tâches */
+    color: #ecf0f1; /* Couleur du texte dans la barre de tâches */
+    border-radius: 10px; /* Bordures arrondies pour la barre de tâches */
+}
+
+/* Style général pour les boutons */
+QPushButton {
+    border: none; /* Pas de bordure autour des boutons */
+    border-radius: 5px; /* Bordures arrondies pour les boutons */
+    background-color: #cda715;  /* Couleur de fond principale pour les boutons */
+    color: black; /* Couleur du texte pour les boutons */
+    font-size: 16px; /* Taille de la police pour les boutons */
+    padding: 10px; /* Espace intérieur autour du texte des boutons */
+    min-height: 20px; /* Hauteur minimum pour les boutons */
+    text-align: center; /* Centrer le texte horizontalement */
+    vertical-align: center ; /* Centrer le texte verticalement */
+}
+
+/* Style pour les boutons lorsqu'ils sont survolés avec la souris */
+QPushButton:hover {
+    background-color: #968D77;  /* Couleur de fond pour les boutons survolés */
+}
+
+/* Style pour les boutons lorsqu'ils sont enfoncés */
+QPushButton:pressed {
+    background-color: #847655;  /* Couleur de fond pour les boutons enfoncés */
+}
+
+/* Style spécifique pour le bouton "MDP" */
+QPushButton#btn_outils {
+    background-color: #cda715; /* Couleur de fond spécifique pour le bouton "MDP" */
+}
+
+/* Style spécifique pour le bouton "Historique" */
+QPushButton#btn_projets {
+    background-color: #968D77; /* Couleur de fond spécifique pour le bouton "Historique" */
+}
+
+/* Style spécifique pour le bouton "Services" */
+QPushButton#btn_services {
+    background-color: #847655; /* Couleur de fond spécifique pour le bouton "Services" */
+}
+
+/* Style général pour les étiquettes (labels) */
+QLabel {
+    border: none; /* Pas de bordure autour des étiquettes */
+    color: #ecf0f1; /* Couleur du texte pour les étiquettes */
+}
