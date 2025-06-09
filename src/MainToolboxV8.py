@@ -8,10 +8,10 @@ from PySide6.QtWidgets import (
     QApplication, QMainWindow, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton, QDialog, QStackedWidget, QSystemTrayIcon, QMenu
 )
 
-from toolbox_v08.MotV8 import MotDePasseWidget
-from toolbox_v08.config import STYLESHEET_PATH, IMAGES_DIR
-from toolbox_v08.historiqueV8 import HistoriqueWidget
-from toolbox_v08.servicesV8 import ServicesWidget
+from MotV8 import MotDePasseWidget
+from config import STYLESHEET_PATH, IMAGES_DIR
+from historiqueV8 import HistoriqueWidget
+from servicesV8 import ServicesWidget
 
 class SettingsWindow(QDialog):
     def __init__(self):
