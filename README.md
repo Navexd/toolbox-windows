@@ -37,13 +37,13 @@ Développée en **Python**, Toolbox est simple, efficace et adaptée aux besoins
 ![box installation Toolbox](img/Image2.png)
 ![box installation Toolbox](img/Image3.png)
 ![box installation Toolbox](img/Image4.png)
-
+```bash
 ### 🔹 2.5 Installation de Toolbox autre méthode
 1. git clone https://github.com/Navexd/toolbox-windows.git
 2. cd toolbox-windows
 3. pip install -r requirements.txt
 4. python src/main.py
-
+```
 
 ### 🔹 3. Premier Lancement
 1. **Exécutez Toolbox en tant qu’administrateur** pour éviter les erreurs
